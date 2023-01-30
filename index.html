@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/58ab187cf1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mateo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://i.pinimg.com/564x/10/44/c0/1044c0efc77b0c967f29edd2f85d4256.jpg" alt="">
+            </div>
+            <h1>Mateo Calle</h1>
+            <h2>Estudiante de Desarrollo de Software </h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/mateo.calle.7549"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/iMateo89"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/matteocra_/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+<!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy Mateo Calle.</span>Por el momento estoy aprendiendo...</p>
+
+            <div class="fila">
+             <!-- DATOS PERSONALES -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            02-04-2005
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +593 96 409 4483
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            mateocra2005@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            aun no lo tengo :c
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            3 De Mayo, Cuenca
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+
+               
+    <script src="script.js"></script>
+</body>
+</html>
